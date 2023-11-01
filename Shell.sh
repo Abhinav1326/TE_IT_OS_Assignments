@@ -52,7 +52,7 @@ echo no record found
 fi
 ;;
 
-5)echo enter the rollno which you want 
+5) echo enter the rollno which you want 
  read rollNo
 if  grep $rollNo $fname
 then
